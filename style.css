@@ -1,0 +1,89 @@
+/*this area for font-family*/
+@font-face{
+src: url('assets/fontawesome/norwester-v1.2/norwester.otf');
+font-family:norwester;
+}
+@import url('https://fonts.googleapis.com/css?family=Cabin:600i');
+
+body{
+  font-family:norwester;
+  
+}
+
+/*Hearder area start*/
+
+.header-area{
+	background-image: url('assets/img/bg_n4.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height:630px;
+	position: relative;
+	z-index: 1;
+}
+
+.header-area:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  top: 0;
+  left: 0;
+  content: '';
+  opacity:.1;
+  z-index: -1;
+}
+.header-content {
+  color: #fff;
+}
+.header-content h1 {
+  font-size: 85px;
+  margin-top:20px;
+  margin-left:40px;
+  text-transform: uppercase;
+
+}
+.logo img {
+  position: absolute;
+  left: -88%;
+  width: 90%;
+  top: 65%;
+}
+.based-section {
+  padding: 30px 0px;
+  color: #fff;
+}
+.based-section h2 {
+  padding:15px 40px;
+  margin:20px;
+  width: 60%;
+  background: #FF904E;
+  font-size: 36px;
+  font-family:'Cabin', sans-serif;
+  position: relative;
+  font-weight:700;
+}
+.based-section img {
+
+    position: absolute;
+    width: 160px;
+    top: 0;
+    left: 47%;
+
+}
+
+.fab-icon img{
+  position: absolute;
+  top: 11%;
+  left: 54%;
+  width:25%;
+
+  
+}
+.copy-right{
+  color: #2A5297;
+  padding-left:200px;
+  margin-top: -30px;
+
+}
+/*Hearder area end*/

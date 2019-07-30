@@ -1,0 +1,142 @@
+
+
+@media screen and (max-width: 1200px ){
+	
+.header-content h1 {
+
+    font-size: 65px;
+
+}
+.logo img {
+
+    width: 60%;
+    top: 70%;
+    left: -33%;
+
+}
+.based-section img {
+
+    width: 125px;
+    top: 10%;
+    left: 50%;
+
+}
+
+.based-section h2 {
+  width: 62%;
+  font-size: 32px;
+}
+}
+@media screen and (max-width: 995px ){
+
+.logo img {
+
+    top: 72%;
+    left: -16%;
+    width: 267px;
+
+}
+
+.based-section h2 {
+  font-size: 25px;
+  width: 78%;
+}
+.based-section img {
+
+    width: 15%;
+    left: 54%;
+    top: 15%;
+
+}
+}
+
+@media screen and (max-width: 767px ){
+	
+.header-content h1 {
+
+    text-align: center;
+
+}
+.logo img {
+
+    width: 234px;
+    left: 30%;
+
+}
+.based-section {
+
+    padding: 145px 0px;
+    text-align: center;
+
+}
+.based-section h2 {
+
+    font-size: 18px;
+    width: 86%;
+    margin: auto;
+    text-align: left;
+
+}
+.based-section img {
+
+    width: 20%;
+    left: 58%;
+    top: 33%;
+
+}
+.fab-icon img{
+     width:25%;
+     left: 70%;
+}
+
+}
+@media screen and (max-width: 535px ){
+	
+.based-section img {
+   left: 65%;
+   width: 100px;
+
+}
+
+.fab-icon img{
+	 width:20%;
+     left: 80%;
+     top: 8%;
+}
+
+}
+
+
+@media screen and (max-width: 400px ){
+.logo img {
+
+    left: 10%;
+
+}
+.header-content h1 {
+    margin:4px;
+    text-align:left;
+     font-size: 50px;
+
+
+}
+.fab-icon img{
+     width:28%;
+     left: 68%;
+     top:1%
+}
+.based-section img {
+    left: 70%;
+}
+.based-section h2{
+
+width: 100%;
+padding-left:17px;
+font-size: 16px;
+}
+.logo img{
+     left: 14%;
+
+
+}
+}
